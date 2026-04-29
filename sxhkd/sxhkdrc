@@ -1,0 +1,14 @@
+XF86MonBrightnessUp
+	brightnessctl set +5%
+XF86MonBrightnessDown
+	brightnessctl set 5%-
+
+super+r
+	rofi -show drun
+
+#XF86AudioRaiseVolume
+#	amixer -c 1 set Master 5%+
+#XF86AudioLowerVolume
+#	amixer -c 1 set Master 5%-
+XF86AudioMute
+	amixer -c 1 set Master toggle
