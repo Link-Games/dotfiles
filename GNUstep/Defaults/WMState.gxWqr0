@@ -1,0 +1,166 @@
+{
+  Dock = {
+    AutoRaiseLower = No;
+    Applications768 = (
+      {
+        Forced = No;
+        Name = Logo.WMDock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,0";
+        Lock = No;
+        Command = "-";
+      },
+      {
+        Forced = No;
+        Name = xterm.XTerm;
+        DropCommand = "/usr/bin/xterm -sb %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,2";
+        Lock = No;
+        PasteCommand = "/usr/bin/xterm -sb %s";
+        Command = "/usr/bin/xterm -sb";
+      },
+      {
+        Forced = No;
+        Name = asmon.asmon;
+        DropCommand = "asmon %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,1";
+        Lock = No;
+        PasteCommand = "asmon %s";
+        Command = asmon;
+      },
+      {
+        Forced = No;
+        Name = wmcliphist.Wmcliphist;
+        DropCommand = "wmcliphist %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,3";
+        Lock = No;
+        PasteCommand = "wmcliphist %s";
+        Command = wmcliphist;
+      },
+      {
+        Forced = No;
+        Name = wmtetris.wmtetris;
+        DropCommand = "wmtetris %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,4";
+        Lock = No;
+        PasteCommand = "wmtetris %s";
+        Command = wmtetris;
+      },
+      {
+        Forced = No;
+        Name = wmeyes.WMeyes;
+        DropCommand = "wmeyes %d-w";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,5";
+        Lock = No;
+        PasteCommand = "wmeyes %s -w";
+        Command = "wmeyes -w";
+      },
+      {
+        Forced = No;
+        Name = wmcalc.wmcalc;
+        DropCommand = "wmcalc %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,7";
+        Lock = No;
+        PasteCommand = "wmcalc %s";
+        Command = wmcalc;
+      },
+      {
+        Forced = No;
+        Name = wmifinfo.wmifinfo;
+        DropCommand = "wmifinfo %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,8";
+        Lock = No;
+        PasteCommand = "wmifinfo %s";
+        Command = wmifinfo;
+      },
+      {
+        Forced = No;
+        Name = wmmemfree.WMMemFree;
+        DropCommand = "wmmemfree %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,9";
+        Lock = No;
+        PasteCommand = "wmmemfree %s";
+        Command = wmmemfree;
+      },
+      {
+        Forced = No;
+        Name = wmweather.wmweather;
+        DropCommand = "wmweather %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,10";
+        Lock = No;
+        PasteCommand = "wmweather %s";
+        Command = "wmweather -s CYOW -m";
+      },
+      {
+        Forced = No;
+        Name = wmitime.wmitime;
+        DropCommand = "wmitime %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,6";
+        Lock = No;
+        PasteCommand = "wmitime %s";
+        Command = wmitime;
+      },
+      {
+        Forced = No;
+        Name = wmacpi.DockApp;
+        DropCommand = "wmacpi -c 15 %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,11";
+        Lock = No;
+        PasteCommand = "wmacpi -c 15 %s";
+        Command = "wmacpi -c 15";
+      }
+    );
+    Applications = (
+      {
+        Forced = No;
+        Name = Logo.WMDock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,0";
+        Lock = No;
+        Command = "-";
+      },
+      {
+        Forced = No;
+        Name = xterm.XTerm;
+        DropCommand = "/usr/bin/xterm -sb %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,2";
+        Lock = No;
+        PasteCommand = "/usr/bin/xterm -sb %s";
+        Command = "/usr/bin/xterm -sb";
+      },
+      {
+        Forced = No;
+        Name = asmon.asmon;
+        DropCommand = "asmon %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,1";
+        Lock = No;
+        PasteCommand = "asmon %s";
+        C

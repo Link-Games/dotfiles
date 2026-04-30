@@ -1,0 +1,232 @@
+{
+  Dock = {
+    AutoRaiseLower = No;
+    Applications768 = (
+      {
+        Forced = No;
+        Name = Logo.WMDock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,0";
+        Lock = No;
+        Command = "-";
+      },
+      {
+        Forced = No;
+        Name = xterm.XTerm;
+        DropCommand = "/usr/bin/xterm -sb %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,10";
+        Lock = No;
+        PasteCommand = "/usr/bin/xterm -sb %s";
+        Command = "/usr/bin/xterm -sb";
+      },
+      {
+        Forced = No;
+        Name = asmon.asmon;
+        DropCommand = "asmon %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,2";
+        Lock = No;
+        PasteCommand = "asmon %s";
+        Command = asmon;
+      },
+      {
+        Forced = No;
+        Name = wmix.wmix;
+        DropCommand = "wmix -m hw:1 %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,5";
+        Lock = No;
+        PasteCommand = "wmix -m hw:1 %s";
+        Command = "wmix -m hw:1";
+      },
+      {
+        Forced = No;
+        Name = wmeyes.WMeyes;
+        DropCommand = "wmeyes %d-w";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,11";
+        Lock = No;
+        PasteCommand = "wmeyes %s -w";
+        Command = "wmeyes -w";
+      },
+      {
+        Forced = No;
+        Name = wmweather.wmweather;
+        DropCommand = "wmweather %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,4";
+        Lock = No;
+        PasteCommand = "wmweather %s";
+        Command = "wmweather -s CYOW -m";
+      },
+      {
+        Forced = No;
+        Name = wmitime.wmitime;
+        DropCommand = "wmitime %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,3";
+        Lock = No;
+        PasteCommand = "wmitime %s";
+        Command = wmitime;
+      },
+      {
+        Forced = No;
+        Name = wmacpi.DockApp;
+        DropCommand = "wmacpi -c 15 %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,1";
+        Lock = No;
+        PasteCommand = "wmacpi -c 15 %s";
+        Command = "wmacpi -c 15";
+      }
+    );
+    Applications = (
+      {
+        Forced = No;
+        Name = Logo.WMDock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,0";
+        Lock = No;
+        Command = "-";
+      },
+      {
+        Forced = No;
+        Name = xterm.XTerm;
+        DropCommand = "/usr/bin/xterm -sb %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,10";
+        Lock = No;
+        PasteCommand = "/usr/bin/xterm -sb %s";
+        Command = "/usr/bin/xterm -sb";
+      },
+      {
+        Forced = No;
+        Name = asmon.asmon;
+        DropCommand = "asmon %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,2";
+        Lock = No;
+        PasteCommand = "asmon %s";
+        Command = asmon;
+      },
+      {
+        Forced = No;
+        Name = wmix.wmix;
+        DropCommand = "wmix -m hw:1 %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,5";
+        Lock = No;
+        PasteCommand = "wmix -m hw:1 %s";
+        Command = "wmix -m hw:1";
+      },
+      {
+        Forced = No;
+        Name = wmeyes.WMeyes;
+        DropCommand = "wmeyes %d-w";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,11";
+        Lock = No;
+        PasteCommand = "wmeyes %s -w";
+        Command = "wmeyes -w";
+      },
+      {
+        Forced = No;
+        Name = wmweather.wmweather;
+        DropCommand = "wmweather %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,4";
+        Lock = No;
+        PasteCommand = "wmweather %s";
+        Command = "wmweather -s CYOW -m";
+      },
+      {
+        Forced = No;
+        Name = wmitime.wmitime;
+        DropCommand = "wmitime %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,3";
+        Lock = No;
+        PasteCommand = "wmitime %s";
+        Command = wmitime;
+      },
+      {
+        Forced = No;
+        Name = wmacpi.DockApp;
+        DropCommand = "wmacpi -c 15 %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,1";
+        Lock = No;
+        PasteCommand = "wmacpi -c 15 %s";
+        Command = "wmacpi -c 15";
+      }
+    );
+    Lowered = Yes;
+    Position = "1302,0";
+  };
+  Clip = {
+    Forced = No;
+    Name = Logo.WMClip;
+    BuggyApplication = No;
+    AutoLaunch = No;
+    Position = "0,0";
+    Lock = No;
+    Command = "-";
+  };
+  Applications = (
+    {
+      Maximized = 0x0002;
+      Name = "chromium-browser.Chromium-browser";
+      Shaded = No;
+      Miniaturized = No;
+      Command = "/usr/lib/chromium/chromium";
+      Geometry = "1300x733+0+0";
+      Hidden = No;
+      Workspace = "Workspace 1";
+      ShortcutMask = 0;
+    },
+    {
+      Dock = Dock;
+      Maximized = 0x0000;
+      Name = xterm.XTerm;
+      Shaded = No;
+      Miniaturized = No;
+      Command = "/usr/bin/xterm -sb";
+      Geometry = "499x316+431+198";
+      Hidden = No;
+      Workspace = "Workspace 1";
+      ShortcutMask = 0;
+    }
+  );
+  Drawers = ();
+  Workspaces = (
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 1";
+    }
+  );
+  Workspace = "Workspace 1";
+}
